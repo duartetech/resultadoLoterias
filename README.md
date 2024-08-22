@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O **Resultado Loterias** é uma aplicação web que permite ao usuário consultar os resultados de diversos jogos de loteria da Caixa Econômica Federal. Com uma interface simples, o usuário pode selecionar a loteria desejada, inserir o número do concurso e visualizar os números sorteados. Utilizasse da [Loterias API REST 1.0](https://github.com/guto-alves/loterias-api)
+Esta é uma aplicação web que permite ao usuário consultar os resultados de diversos jogos de loteria da Caixa Econômica Federal. Com uma interface simples, o usuário pode selecionar a loteria desejada, inserir o número do concurso e visualizar os números sorteados. Utilizasse da [Loterias API REST 1.0](https://github.com/guto-alves/loterias-api)
 
 ## Funcionalidades
 
