@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--defaultFont);
+}
+
+:root{
+    --defaultFont: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(27, 27, 27);
+}
+
+h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.container{
+    background: rgb(78, 78, 78);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.24);
+    width: 30vh;
+}
+
+.container h1{
+    text-align: center;
+}
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    gap: 5px
+}
+.containerForm input{
+    height: 30px;
+    font-size: 15px;
+}
+
+.containerForm select{
+    height: 30px;
+    font-size: 15px;
+}
+.containerForm button{
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 30px;
+    font-size: 17px;
+    color: white;
+    background: rgb(1, 209, 46);
+    border: 2px solid rgb(4, 121, 0);
+}
+
+.containerForm button:hover{
+    background: rgb(0, 141, 31);
+    border: 2px solid rgb(3, 99, 0);
+}
+
+.containerForm button:active{
+    background: rgb(218, 178, 0);
+    border: 2px solid rgb(194, 126, 0);
+}
+.resultado{
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+    min-height: 30px;
+    align-content: center;
+    border-radius: 8px;
+}
