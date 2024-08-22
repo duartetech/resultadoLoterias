@@ -1,7 +1,3 @@
-Claro! Vou adicionar os créditos à **Loterias API REST 1.0** no README. Veja como fica:
-
----
-
 # Resultado Loterias
 
 ## Descrição
