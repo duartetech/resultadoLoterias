@@ -10,7 +10,7 @@ let numConcurso = document.querySelector('#numConcurso');
                 let resposta = await fetch(url);
                 let dados = await resposta.json();
                 
-                let dadosResultado = dados.dezenasOrdemSorteio.join(' - ')
+                let dadosResultado = dados.dezenas.join(' - ')
                 resultado.innerHTML = `${dadosResultado}`;
             } catch (error) {
                 resultado.innerHTML = 'Erro ao obter os dados.';
